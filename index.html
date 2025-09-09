@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistema de Cadastro de Aluno</h1>
+    <form id="formAluno">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="number" id="idade" placeholder="Idade" required>
+        <input type="text" id="curso" placeholder="Curso" required>
+        <input type="text" id="matricula" placeholder="Matricula" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Curso</th>
+            <th>Matricula</th>
+            <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody id="tabelaAlunos"></tbody>
+    </table>
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
